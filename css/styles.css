@@ -194,6 +194,7 @@ footer p {
     width: auto;
     max-width: 500px;
     margin: 20px auto;
+    display: none;
 }
 
 .lp-popup {
