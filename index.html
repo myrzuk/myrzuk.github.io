@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/wi-feedback.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-locale_ru-by.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.wi-feedback.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&onload=jQuery.fn.lpMapInit" async></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <ul>
+                <li> <a href="#slideshow">Главная</a> </li>
+                <li> <a href="#services">Услуги</a> </li>
+                <li> <a href="#portfolio">Партфолио</a> </li>
+                <li> <a href="#prices">Цены</a> </li>
+                <li> <a href="#contacts">Контакты</a> </li>
+            </ul>
+        </div>
+    </header>
+
+    <section id='slideshow'>
+        <div class="container">
+            <div class="lp-content">
+                <div class="owl-carousel lp-slider1 ">
+                    <img src="/img/slideshow/slide1.jpg" alt="Продукт 1">
+                    <img src="/img/slideshow/slide2.jpg" alt="Продукт 2">
+                    <img src="/img/slideshow/slide3.jpg" alt="Продукт 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='services' data-offset=''>
+        <div class="container">
+            <div class="lp-content">
+                <h2>Наши услуги</h2>
+                <div class="lp-tabs">
+
+                    <div data-tab-title="Услуга 1">
+                        <p class="text-center"><strong>Услуга 1</strong></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, assumenda?</p>
+                        <p class="text-center">
+                            <a href="#lp-srv1" class="btn btn-primary lp-mfp-inline">Подробнее...</a>
+                            <a href="#lp-fb1" class="btn btn-primary lp-fb1-link" data-wi-fb-info="Услуга 1">Заказать</a>
+                            <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="btn btn-primary lp-mfp-iframe">Задание 1.</a>
+                            <a href="#lp-fb3" class="btn btn-primary lp-fb1-link" data-wi-fb-info="Услуга 1">Задание 2</a>
+                            <a href="#lp-fb4" class="btn btn-primary lp-fb1-link" data-wi-fb-info="Услуга 1">Задание 3</a>
+
+
+                        </p>
+                    </div>
+
+                    <div data-tab-title="Услуга 2">
+                        <p class="text-center"><strong>Услуга 2</strong></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem totam atque explicabo ipsum tempora nam rerum assumenda aspernatur accusantium temporibus minima alias facere in nobis amet aut esse, error ipsa nostrum? Illo tempora reiciendis pariatur dignissimos minima neque, minus incidunt, necessitatibus magnam provident modi veritatis odio sapiente est, aut beatae!</p>
+                        <p class="text-center">
+                            <a href="#lp-srv2" class="btn btn-primary lp-mfp-inline">Подробнее...</a>
+                            <a href="#lp-fb1" class="btn btn-primary lp-fb1-link" data-wi-fb-info="Услуга 2">Заказать</a>
+                            <a href="page1.html" class="btn btn-primary lp-mfp-ajax">Задание 2</a>
+                        </p>
+                    </div>
+
+                    <div data-tab-title="Услуга 3">
+                        <p class="text-center"><strong>Услуга 3</strong></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quod expedita sint corporis nostrum esse, placeat dolorum sit temporibus a voluptatibus vitae, natus assumenda nesciunt est nulla maiores error mollitia id vero hic voluptate minus. Nisi, quas adipisci quibusdam recusandae exercitationem alias harum ut dignissimos possimus aperiam doloribus animi vitae a nemo provident error quis tempora qui, aut modi. Hic quisquam, tempora nam quas sapiente? Ipsum architecto perspiciatis voluptates quasi iusto blanditiis accusamus, voluptatibus, odio amet ea, praesentium. Sequi eligendi tempore, sint earum. Debitis eos eveniet ab eaque voluptatibus nemo praesentium omnis voluptate quasi aliquam harum, cum perspiciatis enim! In?</p>
+                        <p class="text-center">
+                            <a href="#lp-srv3" class="btn btn-primary lp-mfp-inline">Подробнее...</a>
+                            <a href="#lp-fb1" class="btn btn-primary lp-fb1-link" data-wi-fb-info="Услуга 3">Заказать</a>
+                            <button class="item">Задание 12</button>
+                        </p>
+                    </div>
+
+                    <div data-tab-title="Услуга 4">
+                        <p class="text-center"><strong>Услуга 4</strong></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nihil iure eveniet magni blanditiis voluptatibus, repudiandae quos illum mollitia voluptas soluta saepe alias inventore, odio, beatae accusamus aut ad! Dignissimos voluptas nihil ducimus minima asperiores. Expedita aliquid, ipsum veniam veritatis fuga nihil et incidunt repellat impedit aperiam sit saepe, voluptate nobis adipisci quam eum ullam magni accusamus? Libero molestiae dolorem harum dolores sequi dignissimos sit magni inventore recusandae cupiditate quisquam culpa impedit eaque nostrum molestias id quas, deserunt corporis nobis voluptatem vero ullam eligendi debitis facilis! Tenetur illo, ullam labore!</p>
+                        <p class="text-center">
+                            <a href="#lp-srv4" class="btn btn-primary lp-mfp-inline">Подробнее...</a>
+                            <a href="#lp-fb1" class="btn btn-primary lp-fb1-link" data-wi-fb-info="Услуга 4">Заказать</a>
+                            <a href="#lp-srv5" class="btn btn-primary lp-mfp-inline ctm">Купить</a>
+                            <a href="#lp-srv5" class="btn btn-primary lp-mfp-inline ctm">Отправить</a>
+                            <a href="#lp-srv5" class="btn btn-primary lp-mfp-inline ctm">Оформить</a>
+
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id='portfolio' data-offset='50'>
+        <div class="container">
+            <div class="lp-content">
+                <h2>Портфолио</h2>
+
+                <div class="owl-carousel lp-slider2 lp-gallery">
+                    <a href="/img/slideshow/slide1.jpg">
+                    <img src="/img/slideshow/slide1.jpg" alt="Продукт 1">
+                    </a>
+                    <a href="/img/slideshow/slide2.jpg">
+                    <img src="/img/slideshow/slide2.jpg" alt="Продукт 2">
+                    </a>
+                    <a href="/img/slideshow/slide3.jpg">
+                    <img src="/img/slideshow/slide3.jpg" alt="Продукт 3">
+                    </a>
+                    <a href="/img/slideshow/slide1.jpg">
+                    <img src="/img/slideshow/slide1.jpg" alt="Продукт 4">
+                    </a>
+                    <a href="/img/slideshow/slide2.jpg">
+                    <img src="/img/slideshow/slide2.jpg" alt="Продукт 5">
+                    </a>
+                    <a href="/img/slideshow/slide3.jpg">
+                    <img src="/img/slideshow/slide3.jpg" alt="Продукт 6">
+                    </a>
+                    <a href="/img/slideshow/slide1.jpg">
+                    <img src="/img/slideshow/slide1.jpg" alt="Продукт 7">
+                    </a>
+                    <a href="/img/slideshow/slide2.jpg">
+                    <img src="/img/slideshow/slide2.jpg" alt="Продукт 8">
+                    </a>
+                    <a href="/img/slideshow/slide3.jpg">
+                    <img src="/img/slideshow/slide3.jpg" alt="Продукт 9">
+                    </a>
+                    <a href="/img/slideshow/slide1.jpg">
+                    <img src="/img/slideshow/slide1.jpg" alt="Продукт 10">
+                    </a>
+
+
+                </div>
+                <p>
+                    <input type="number" class="slide">
+                    <button class="slide">Включить слайд</button>
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id='prices' data-offset='40' ng-app="lpApp">
+        <div class="container" ng-controller="lpPriceCtrl">
+            <div class="lp-content">
+                <h2>Цены</h2>
+                <p ng-hide="prices || requestStatus || requestStatusText" class="lp-prices-loader">
+                    <i class="fas fa-spinner"></i>
+                </p>
+                <table ng-show="prices" class='table table-bordered table-striped'>
+                    <thead>
+                        <tr>
+                            <th>№</th>
+                            <th ng-click="sortSet('name')">
+                                <span>Наименование</span>
+                                <i class="fas fa-sort" ng-hide="sortBy == 'name'"></i>
+                                <i class="fas fa-sort-up" ng-hide="sortBy != 'name'  || sortRev"></i>
+                                <i class="fas fa-sort-down" ng-hide="sortBy != 'name' || !sortRev"></i>
+                            </th>
+                            <th ng-click="sortSet('price')">
+                                <span>Цена</span>
+                                <i class="fas fa-sort" ng-hide="sortBy == 'price'"></i>
+                                <i class="fas fa-sort-up" ng-hide="sortBy != 'price'  || sortRev"></i>
+                                <i class="fas fa-sort-down" ng-hide="sortBy != 'price'  || !sortRev"></i>
+                            </th>
+                            <th ng-click="sortSet('discount')">
+                                <span>Скидка</span>
+                                <i class="fas fa-sort" ng-hide="sortBy == 'discount'"></i>
+                                <i class="fas fa-sort-up" ng-hide="sortBy != 'discount'  || sortRev"></i>
+                                <i class="fas fa-sort-down" ng-hide="sortBy != 'discount'  || !sortRev"></i>
+                            </th>
+                            <th ng-click="sortSet('price2')">
+                                <span>Цена со скидкой</span>
+                                <i class="fas fa-sort" ng-hide="sortBy == 'price2'"></i>
+                                <i class="fas fa-sort-up" ng-hide="sortBy != 'price2'  || sortRev"></i>
+                                <i class="fas fa-sort-down" ng-hide="sortBy != 'price2' || !sortRev"></i>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="price in prices | orderBy:sortBy:sortRev">
+                            <td>{{$index+1}}</td>
+                            <td>
+                                <span>{{price.name}}</span>
+                                <i class="fas fa-tag" ng-show="price.discount"></i>
+                            </td>
+                            <td>{{price.price | currency }}</td>
+                            <td>
+                                <span ng-show="price.discount">{{price.discount * 100 | number:0}}%</span>
+                                <span ng-hide="price.discount">-</span>
+                            </td>
+                            <td>{{price.price2| currency}} </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p ng-show="requestStatus || requestStatusText" class="alert alert-danger">При загрузке данных произошла ошибка {{requestStatus}} {{requestStatusText}}</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id='contacts' data-offset='60'>
+        <div class="container">
+            <div class="lp-content">
+                <h2>Контакты</h2>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3>Карта проезда</h3>
+                        <div id="lp-map"></div>
+                        
+<!--
+                            // Функция ymaps.ready() будет вызвана, когда
+                            // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+                            ymaps.ready(init);
+
+                            function init() {
+                                // Создание карты.    
+                                var myMap = new ymaps.Map("map", {
+                                    // Координаты центра карты.
+                                    // Порядок по умолчанию: «широта, долгота».
+                                    // Чтобы не определять координаты центра карты вручную,
+                                    // воспользуйтесь инструментом Определение координат.
+                                    center: [55.76, 37.64],
+                                    // Уровень масштабирования. Допустимые значения:
+                                    // от 0 (весь мир) до 19.
+                                    zoom: 7
+                                });
+                            }
+-->
+
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <div id="lp-fb2">
+                            <h2>Обратная связь</h2>
+                            <h3>Заполните контактные данные, и мы свяжемся с вами в кратчайшие сроки:</h3>
+                            <input type="text" maxlength="50" data-wi-fb-caption="Имя" placeholder="Ваше Имя..." pattern="[A-Z]{2}\d{7}" />
+                            <input type="tel" maxlength="50" data-wi-fb-caption="Телефон" placeholder="Ваш Телефон..." required />
+                            <input type="email" maxlength="50" data-wi-fb-caption="Почта" placeholder="Ваш E-mail..." />
+                            <textarea maxlength="500" data-wi-fb-caption="Сообщение" placeholder="Сообщение..."></textarea>
+                            <button>Написать</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; Глеб Прокопович 2018</p>
+        </div>
+    </footer>
+
+    <div class="lp-modals">
+
+        <div id="lp-srv1" class="lp-popup">
+            <h2>Описание услуги 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat beatae, alias, dignissimos ipsum hic eos. Reprehenderit cum nisi expedita praesentium recusandae ad asperiores perspiciatis possimus cupiditate, maxime, iste, repellendus saepe.</p>
+        </div>
+
+        <div id="lp-srv2" class="lp-popup">
+            <h2>Описание услуги 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit omnis, consequuntur natus accusantium veniam quia voluptas maiores tempore. Nam pariatur mollitia, dolorum repudiandae explicabo saepe. Vitae, suscipit officia! Labore, quam.</p>
+        </div>
+
+        <div id="lp-srv3" class="lp-popup">
+            <h2>Описание услуги 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tempore laborum laudantium nesciunt eum quo necessitatibus amet, dolores dignissimos molestiae magni architecto, placeat totam, est, officia recusandae sint adipisci. Explicabo.</p>
+        </div>
+
+        <div id="lp-srv4" class="lp-popup">
+            <h2>Описание услуги 4</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, porro veritatis officia voluptate et facilis excepturi fugiat expedita eveniet vero dignissimos itaque, quo laudantium voluptates in minus consequuntur quisquam ea!</p>
+        </div>
+
+        <div id="lp-srv5" class="lp-popup">
+            <h2>Заголовок...</h2>
+            <p>Вот и вышло !</p>
+        </div>
+
+        <div id="lp-fb1">
+            <h2>Заказать консультацию</h2>
+            <h3>Заполните контактные данные, и мы свяжемся с вами в кратчайшие сроки:</h3>
+            <input type="text" maxlength="50" data-wi-fb-caption="Имя" placeholder="Ваше Имя..." />
+            <input type="tel" maxlength="50" data-wi-fb-caption="Телефон" placeholder="Ваш Телефон..." required />
+            <button>Перезвоните мне</button>
+        </div>
+
+        <div id="lp-fb3">
+            <h2>Type</h2>
+            <h3>Виды type:</h3>
+            <input type="color" maxlength="50" data-wi-fb-caption="цвет" placeholder="цвет" />
+            <input type="date" maxlength="50" data-wi-fb-caption="дата" placeholder="дата" required />
+            <input type="datetime" maxlength="50" data-wi-fb-caption="дата и время" placeholder="Дата и время." required />
+            <input type="datetime-local" maxlength="50" data-wi-fb-caption="местноя дата и время" placeholder="Местноя дата и время" required />
+            <input type="email" maxlength="50" data-wi-fb-caption="емаил" placeholder="Ваш емаил" required />
+            <input type="number" maxlength="50" data-wi-fb-caption="число" placeholder="Введите число" required />
+            <input type="range" maxlength="50" data-wi-fb-caption="диапозон чисел" placeholder="Ползунок с" required />
+            <input type="tel" maxlength="50" data-wi-fb-caption="Телефон" placeholder="Ваш Телефон..." required />
+            <input type="time" maxlength="50" data-wi-fb-caption="время" placeholder="время" required />
+            <input type="url" maxlength="50" data-wi-fb-caption="веб сайт" placeholder="Веб сайт..." required />
+            <input type="month" maxlength="50" data-wi-fb-caption="месяц" placeholder="месяц" required />
+            <input type="week" maxlength="50" data-wi-fb-caption="Неделя" placeholder="Неделя" required />
+            <input type="search" maxlength="50" data-wi-fb-caption="поиск" placeholder="Поле для поиска" required />
+            <button>Перезвоните мне</button>
+        </div>
+
+        <div id="lp-fb4">
+            <h2>Телефон</h2>
+            <h3>Укажите ваш телефон:</h3>
+            <input type="tel" maxlength="50" data-wi-fb-caption="Телефон" placeholder="Ваш Телефон... +375 (..) ... .. .." pattern="\+375 \((29|33|44)\) \d{3} \d{2} \d{2}" />
+            <button>Перезвоните мне</button>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
